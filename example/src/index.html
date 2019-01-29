@@ -1,0 +1,17 @@
+<html>
+  <head>
+    <link
+      rel="stylesheet"
+      href="<%=htmlWebpackPlugin.files.chunks.main.css %>"
+    />
+  </head>
+
+  <body>
+    <title>Arcanoid</title>
+    <div id='window'>
+      <div id='platform'>
+      </div>
+    </div>
+    <script src="<%= htmlWebpackPlugin.files.chunks.main.entry %>"></script>
+  </body>
+</html>
